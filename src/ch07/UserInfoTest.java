@@ -30,7 +30,6 @@ public class UserInfoTest {
 		userLee.userName = "Lee";
 		userLee.phoneNumber = "01012345678";
 		userLee.userAddress = "Seoul";
-		
 		System.out.println(userLee.showUserInfo());
 	
 		UserInfo userKim = new UserInfo("b123", "zxcads", "Kim");
